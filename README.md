@@ -1,1 +1,1 @@
-Descrição: "O curso front-end está sendo oferecio pela empresa nave.rs"
+Descrição: "O curso front-end está sendo oferecido pela empresa nave.rs"
