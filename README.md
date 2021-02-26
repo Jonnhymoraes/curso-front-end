@@ -1,1 +1,1 @@
-"# curso-front-end" 
+Descrição: "O curso front-end está sendo oferecido pela empresa nave.rs"
