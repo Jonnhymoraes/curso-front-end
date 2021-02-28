@@ -1,0 +1,30 @@
+body {
+    background-color: gray;
+    height: 500 px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 px 100px;
+}
+
+@media only screen and (max-width: 500px){
+    body {
+        margin: 0px 30px;
+    }
+}
+
+h1 {
+    color: brown;
+}
+
+div {
+    background-color: rgb(187, 186, 184);
+    padding: 20px;
+    width: 80%;
+}
+
+#textos {
+    display: flex;
+    flex-wrap: wrap;
+}
