@@ -1,0 +1,17 @@
+font-size: Modifica o tamanho da fonte do elemento.
+font-weight: Modifica a finura/grossura da fonte (negrito, normal, etc...)
+line-height: Modifica o espaçamento entre as linhas.
+color: Modifica a cor do elemento.
+margin: Adiciona um espaço externo no elemento.
+padding: Adiciona um espaço interno no elemento.
+background-color: Muda cor do fundo.
+width: Define largura do elemento.
+display: Define como o elemento deve ser mostrado na tela.
+display: flex : Define que os elementos internos uarão o layout em flexbox.
+flex-direction: Define a direção do eixo principal.
+justify-content: Distribui os elementos internos no eixo principal
+align-items: Distribui os elementos internos no eixo ttansversal.
+flex-wrap: Define se os elementos internos serão separados em novas linhas caso haja espaço
+
+# -> seleção por id
+. -> seleção por class
