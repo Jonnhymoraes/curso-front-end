@@ -6,7 +6,7 @@ const subtrai = function (a, b){
 //ARROW FUNCTION
  const testaZero = x => x == 0 ? console.log("É zero") : console.log("Não é zero");
 
- //FUNÇÃO
+ //FUNÇÃO DECLARADA
 function testaSinal (x, y) {
     if (subtrai(x, y) == 0){
         console.log("É zero");
