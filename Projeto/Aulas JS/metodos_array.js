@@ -1,4 +1,4 @@
-/* //MÉTODOS DE ARRAY
+/* MÉTODOS DE ARRAY
 
 MAP -> cria um novo array modificando ou mapeando os elementos do array
 FIND -> busca o PRIMEIRO elemento do array que satisfaça a condição informada
