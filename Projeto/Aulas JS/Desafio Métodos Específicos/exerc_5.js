@@ -31,8 +31,8 @@ const colaboradores = [
     },
   ]
 
-  const result = colaboradores.filter(colabor => {
-  return colabor.cargo == 'front-end';
+  const result = colaboradores.some(colabor => {
+  return colabor.cargo == 'estagiario';
 })
 
 console.log("Resposta:", result);

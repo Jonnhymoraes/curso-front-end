@@ -31,8 +31,8 @@ const colaboradores = [
     },
   ]
 
-  const result = colaboradores.filter(colabor => {
-  return colabor.cargo == 'front-end';
+  const result = colaboradores.find(colabor => {
+  return colabor.idade > 23;
 })
 
 console.log("Resposta:", result);
