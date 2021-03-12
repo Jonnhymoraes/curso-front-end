@@ -31,8 +31,8 @@ const colaboradores = [
     },
   ]
 
-  const result = colaboradores.every(colabor => {
-  return colabor.idade > 18;
+  const result = colaboradores.every(colaborador => {
+  return colaborador.idade > 18;
 })
 
 console.log("Resposta:", result);

@@ -31,8 +31,8 @@ const colaboradores = [
     },
   ]
 
-  const result = colaboradores.find(colabor => {
-  return colabor.idade > 23;
+  const result = colaboradores.find(colaborador => {
+  return colaborador.idade > 23;
 })
 
 console.log("Resposta:", result);

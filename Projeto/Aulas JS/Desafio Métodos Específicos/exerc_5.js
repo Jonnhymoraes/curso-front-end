@@ -31,8 +31,8 @@ const colaboradores = [
     },
   ]
 
-  const result = colaboradores.some(colabor => {
-  return colabor.cargo == 'estagiario';
+  const result = colaboradores.some(colaborador => {
+  return colaborador.cargo == 'estagiario';
 })
 
 console.log("Resposta:", result);
