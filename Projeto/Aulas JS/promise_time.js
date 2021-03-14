@@ -1,32 +1,27 @@
-const installments = [
-    {
-      installment_number: 1,
-      value: 123.45,
-      status: 'Pago'
-    },
-    {
-      installment_number: 2,
-      value: 139.88,
-      status: 'Pago'
-    },
-    {
-      installment_number: 3,
-      value: 123.45,
-      status: 'Pago'
-    },
-    {
-      installment_number: 4,
-      value: 182.37,
-      status: 'Aberto'
-    },
-    {
-      installment_number: 5,
-      value: 133.93,
-      status: 'Aberto'
-    }
-  ]
+let x = 20;
 
-const result = installments.reduce((acc, parcelas) => {
-  return acc + parcelas.value;
-}, 0);
-console.log("Total das Parcelas: ", result.toFixed(2));
+const P = new Promise(
+  (resolve, reject) => {
+    setTimeout(() => {
+      if (x > 10){
+         resolve(20);
+      } else{
+        reject("Ocorreu um erro");
+      }
+    }, 3000);
+  }
+)
+
+console.log("antes: ", x);
+
+P
+  .then(res => {
+  x = res;
+  console.log("Exec com sucesso", x);
+})
+  .catch(err => {
+  console.log(err);
+})
+
+
+console.log("depois: ", x);
