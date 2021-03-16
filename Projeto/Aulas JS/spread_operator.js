@@ -33,6 +33,14 @@ copy.profissao = "dev";
 console.log(obj);
 console.log(copy)
 
+/* const obj1 = {name: 'Jonnhy'};
+const obj2 = {idade: 23};
 
+const newObj = {
+    ...obj1,
+    ...obj2
+}
+
+console.log(newObj); */
 
 

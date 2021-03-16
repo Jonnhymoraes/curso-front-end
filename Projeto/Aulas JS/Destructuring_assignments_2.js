@@ -1,4 +1,4 @@
-const user = {
+/* const user = {
     name: 'Jonnhy',
     idade: 23,
     obj: {
@@ -23,8 +23,16 @@ console.log(user); */
     console.log(obj.name);
 } */
 
-function printProp({ name}) {
-    console.log(name);
+/* function printProp({ idade: idade1}, {idade: idade2}) {
+    console.log(idade1 + idade2);
 }
 
-printProp(user);
+printProp(user2);  */
+
+const array = [1, 3, 6]
+
+function getFirst([first]) {
+    console.log(first);
+}
+
+getFirst(array);
