@@ -1,4 +1,4 @@
-/* const user = {
+ const user = {
     name: 'Jonnhy',
     idade: 23,
     obj: {
@@ -13,9 +13,7 @@ const user2 = {
 }
 
 /* let { obj: { prop2: [,segundo] } } = user;
-
 console.log(segundo);
-
 console.log(user); */
 
 //DESESTRUTURANDO FUNÇÕES
