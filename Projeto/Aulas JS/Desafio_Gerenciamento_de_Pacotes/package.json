@@ -1,0 +1,13 @@
+{
+  "name": "desafio_gerenciamento_de_pacotes",
+  "version": "1.0.0",
+  "description": "Desafio de Gerenciamento de Pacotes",
+  "main": "index.js",
+  "author": "Jonnhy Marques",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.19.0"
+  }
+}
