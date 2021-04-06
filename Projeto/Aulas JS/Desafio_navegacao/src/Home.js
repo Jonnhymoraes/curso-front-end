@@ -15,13 +15,14 @@ const Home = () => {
     setShowTitle(!showTitle);
   };
 
+  const handleNavigationComments = () => {
+    history.push("/Comments");
+  };
+
   const handleNavigation = () => {
     history.push("/Sobre");
   };
 
-  const handleNavigationPosts = () => {
-    history.push("/Posts");
-  }
   return (
     <div className="App">
       <header className="App-header">
@@ -39,8 +40,8 @@ const Home = () => {
           Learn React
         </a>
         <button onClick={handleClick}> Mostra titulo </button>
+        <button onClick={handleNavigationComments}> Comentários </button>
         <button onClick={handleNavigation}> Sobre </button>
-        <button onClick={handleNavigationPosts}> Posts </button>
       </header>
     </div>
   );
